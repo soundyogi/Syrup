@@ -4,21 +4,25 @@ If you're not familiar with yeoman
 you will need node.js, the grunt cli and yo:
 
 Get NodeJS and npm.
+
 	npm install -g grunt-cli yo bower
 
 Clone the repo
 cd into it
 
-	_npm install_
-	_bower install_
+	npm install
+	bower install
 
 Start your local production server with:
+
 ~~~
 grunt server
 ~~~~~
+
 build / minify with:
+
 ~~~
-_grunt build_
+grunt build
 ~~~~
 
 F.A.Q:
