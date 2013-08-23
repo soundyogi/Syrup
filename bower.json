@@ -4,7 +4,6 @@
   "dependencies": {
     "jquery": "~1.9.1",
     "ember-mocha-adapter": "0.1.1",
-    "sass-bootstrap": "~2.3.2",
     "modernizr": "~2.6.2"
   },
   "devDependencies": {
