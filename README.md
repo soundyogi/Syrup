@@ -30,4 +30,5 @@ grunt build
 F.A.Q:
 
 * Why are all the bootstrap files in the styles dir?
-I like bootstrap. What I dont like is its size, so I think its nice to work with the .less files directly. yup.
+  
+_I like bootstrap. What I dont like is its size, so I think its nice to work with the .less files directly. yup._
