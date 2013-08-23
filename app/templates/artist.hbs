@@ -1,0 +1,17 @@
+<div class="row">
+    <div class="span9">
+        <h1 class="pull-left" style="margin-top: none">{{ name.name }}</h1>
+        <ul class="nav nav-pills pull-right">
+            <li><a href="#">Example albums</a></li>
+            <li><a href="#">Example names</a></li>
+            <li><a href="#">Example etc</a></li>
+        </ul>
+    </div>
+</div>
+<div class="row">
+    <div class="span9">
+        {{#if disambiguation}}<p>{{ disambiguation }}</p>{{/if}}
+
+        <p>Started in {{ start_date }} and {{#if end_date }} ended on {{ end_date }}. {{ else }} still going strong! {{/if}}</p>
+    </div>
+</div>

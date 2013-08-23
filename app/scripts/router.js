@@ -1,0 +1,5 @@
+Syrup.Router.map(function () {
+  
+});
+
+
