@@ -1,4 +1,4 @@
-### Syrup, makes Waffles tasty
+### Syrup, makes Waffles even tastier
 
 You will need node.js, the grunt-cli and bower.
 
