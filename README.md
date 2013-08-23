@@ -1,14 +1,16 @@
 ### Syrup, makes Waffles tasty
 
-If you're not familiar with yeoman
-you will need node.js, the grunt cli and yo:
+You will need node.js, the grunt-cli and bower.
 
-Get NodeJS and npm.
+Get NodeJS and npm
+
+	nodejs.org
+
+Install grunt, bower and yo (yeoman)
 
 	npm install -g grunt-cli yo bower
 
-Clone the repo
-cd into it
+Clone the repo and cd into it
 
 	npm install
 	bower install
