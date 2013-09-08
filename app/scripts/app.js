@@ -16,16 +16,14 @@ App.ApplicationController = Ember.Controller.extend({
 // ROUTER
 App.Router.map(function() {
     this.resource("music", { path: "/music" }, function() {
-        this.resource("artist", { path: "/:slug/:id" });
-        this.resource("album", { path: "/:artist_slug/:slug/:id" });
+        //this.resource("artist", { path: "/:slug/:id" });
+       // this.resource("album", { path: "/:artist_slug/:slug/:id" });
      });
 });
 
 // ROUTES
 App.MusicIndexRoute = Ember.Route.extend({
-    model: function() {
-        return App.Artist.find();
-    }
+
 });
 
 App.ArtistRoute = Ember.Route.extend({
